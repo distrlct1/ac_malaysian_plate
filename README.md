@@ -75,6 +75,7 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
   - G1M 1 M (Special Plate)
  
 🧠 Every region has its own rules — handled in code.
+
 🛠️ View source logic in style.lua for full breakdown.
 
 📦 Contents
@@ -90,6 +91,8 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 > Just don’t try to lock it behind a paywall or pull any NFT clownery 🪦
 
 🏁 Credits
+
 Made by distrlct1.
+
 Old project, just dropping it out there now.
 Use it, mod it, break it — I ain’t maintaining it but y’all go crazy 🤙
