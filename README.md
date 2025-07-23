@@ -49,9 +49,9 @@ Each version comes as its own folder (e.g. Malaysia - Plates UK and Malaysia - P
 2. Go to Paintshop → License Plate
 3. Select the Malaysian plate from the dropdown
 4. Use:
-    - Standard – Generates realistic state plates
-    - Special – Pulls from a big list of known custom prefixes
-    - Custom – Full manual input
+  - Standard – Generates realistic state plates
+  - Special – Pulls from a big list of known custom prefixes
+  - Custom – Full manual input
 ⚠️ Some cars don’t render license plates properly. Try different cars if nothing shows up.
 
 ✍️ Change Font / Style
@@ -62,21 +62,21 @@ text.font = 'arialbold.ttf'
 Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 
 🧬 Plate Generator Logic
-The script supports 3 modes:
-    - Standard: Randomly generates legal Malaysian plates by region/state/subdivision
-    - Special: Generates plates with special series (e.g. PROTON 89, VIP 88 M)
-    - Custom: Manual inputs for prefix, number, and optional postfix
-Example Outputs:
-    - WQH 1234 A (KL Old Series)
-    - SAK 5678 (Sabah)
-    - UNIMAS 89 (University)
-    - KV 9876 B (Langkawi)
-    - G1M 1 M (Special Plate)
+- The script supports 3 modes:
+  - Standard: Randomly generates legal Malaysian plates by region/state/subdivision
+  - Special: Generates plates with special series (e.g. PROTON 89, VIP 88 M)
+  - Custom: Manual inputs for prefix, number, and optional postfix
+- Example Outputs:
+  - WQH 1234 A (KL Old Series)
+  - SAK 5678 (Sabah)
+  - UNIMAS 89 (University)
+  - KV 9876 B (Langkawi)
+  - G1M 1 M (Special Plate)
 🧠 Every region has its own rules — handled in code.
 🛠️ View source logic in style.lua for full breakdown.
 
 📦 Contents
-Each version folder includes:
+- Each version folder includes:
   - malaysia_bg.png – Background texture
   - malaysia_nm.png – Normal map for lighting
   - style.lua – The generator code (you just posted 🔥)
