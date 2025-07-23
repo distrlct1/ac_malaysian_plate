@@ -52,6 +52,7 @@ Each version comes as its own folder (e.g. Malaysia - Plates UK and Malaysia - P
   - Standard – Generates realistic state plates
   - Special – Pulls from a big list of known custom prefixes
   - Custom – Full manual input
+
 ⚠️ Some cars don’t render license plates properly. Try different cars if nothing shows up.
 
 ✍️ Change Font / Style
@@ -72,6 +73,7 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
   - UNIMAS 89 (University)
   - KV 9876 B (Langkawi)
   - G1M 1 M (Special Plate)
+ 
 🧠 Every region has its own rules — handled in code.
 🛠️ View source logic in style.lua for full breakdown.
 
