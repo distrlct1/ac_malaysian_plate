@@ -38,9 +38,9 @@ Custom CSP Paintshop license plate mod for Assetto Corsa, fully coded in Lua. In
 
 Drop the extracted folder (choose UK or EU version) into:
 
-```bash
+```
 %localappdata%\AcTools Content Manager\Data (User)\License Plates
-```bash
+```
 
 Each version comes as its own folder (e.g. Malaysia - Plates UK and Malaysia - Plates EU).
 
@@ -56,9 +56,9 @@ Each version comes as its own folder (e.g. Malaysia - Plates UK and Malaysia - P
 
 ✍️ Change Font / Style
 Open style.lua inside the mod folder. Find:
-```bash
+```
 text.font = 'arialbold.ttf'
-```bash
+```
 Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 
 🧬 Plate Generator Logic
