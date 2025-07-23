@@ -79,7 +79,7 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 - Each version folder includes:
   - malaysia_bg.png – Background texture
   - malaysia_nm.png – Normal map for lighting
-  - style.lua – The generator code (you just posted 🔥)
+  - style.lua – The generator code
   - Optional fonts (arialbold.ttf, calistomtitalic.ttf, etc.)
 
 🧾 License
@@ -91,8 +91,3 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 Made by distrlct1.
 Old project, just dropping it out there now.
 Use it, mod it, break it — I ain’t maintaining it but y’all go crazy 🤙
-
-💾 Download
-Upload your .zip files (one for each version) under GitHub Releases:
-Malaysia - Plates UK.zip
-Malaysia - Plates EU.zip
