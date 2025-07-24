@@ -48,7 +48,7 @@ Custom CSP Paintshop license plate mod for Assetto Corsa, fully coded in Lua. In
 
 ## 🛠 Installation
 
-Drop the extracted folder (choose UK or EU version) into:
+Drop the extracted folder into:
 
 ```
 %localappdata%\AcTools Content Manager\Data (User)\License Plates
