@@ -110,6 +110,9 @@ end
 
 -- Main function
 return function(plateType, prefix, number, postfix)
+    -- Reset font every time to avoid carryover
+    text.font = "arialbold.ttf"
+
     local plateText = ""
     
     if plateType == "Custom" then

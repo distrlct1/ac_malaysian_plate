@@ -1,14 +1,14 @@
 -- Malaysian license plate generator for Assetto Corsa
 
 -- Plate dimensions and appearance
-plate.size = { 512, 396 }
+plate.size = { 1024, 540 }
 plate.background = 'malaysia_bg.png'
 plate.normals = 'malaysia_nm.png'
 plate.light = -90
 
 -- Text properties (default font for standard plates)
 text.font = 'arialbold.ttf'
-text.size = 140
+text.size = 250
 text.color = '#FFFFFF'
 text.weight = FontWeight.Normal
 text.kerning = -4
@@ -110,6 +110,9 @@ end
 
 -- Main function
 return function(plateType, prefix, number, postfix)
+    -- Reset font every time to avoid carryover
+    text.font = "arialbold.ttf"
+
     local plateText = ""
     
     if plateType == "Custom" then
@@ -192,6 +195,6 @@ return function(plateType, prefix, number, postfix)
     numberPostfixText = numberPostfixText:sub(2)
 
     -- Draw the plate text
-    drawText(prefixText, 0, -60, Gravity.Center)
-    drawText(numberPostfixText, 0, 60, Gravity.Center)
+    drawText(prefixText, 0, -110, Gravity.Center)
+    drawText(numberPostfixText, 0, 110, Gravity.Center)
 end
