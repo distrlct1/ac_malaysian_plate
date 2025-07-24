@@ -116,7 +116,7 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 
 ## 🏁 Credits
 
-Made by distrlct1.
+Made by distrlct1. Discord: respwn3d
 
 Old project, just dropping it out there now.
 Use it, mod it, break it, I ain’t maintaining it but y’all go crazy 🤙
