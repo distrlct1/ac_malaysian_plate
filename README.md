@@ -27,6 +27,7 @@ Custom CSP Paintshop license plate mod for Assetto Corsa, fully coded in Lua. In
 - ✅ Now includes **Framed** and **Simple** variants!
 
 - 🧱 Both versions have identical logic and state handling, just visual layout difference.
+
 ⚡ **EV variant** is in the works – stay tuned!
 
 ---
