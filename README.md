@@ -78,6 +78,13 @@ Drop the extracted folder into:
 7. Number - Sliders to generate plate and for custom input
 8. Postfix - For custom input
 
+## Plate Designs
+### EU - Simple
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/a482a6fd-794e-4533-9591-aa8e8f2732e2" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/ab04dc3a-4574-4935-9501-36fa352c6801" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/e13f9aed-700b-4f7c-a55b-ba7471d57a1e" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/eaeb2bbe-6e58-4ac1-9b9e-513036f1158c" /></td> </tr> </table>
+
+### UK - Framed
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/a70f6208-01ee-46f1-8c0d-281b5e17576b" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/9c3939ac-8cdd-4fb3-b0cc-27c629f63210" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f323ef83-c2da-4d6b-a8e2-176fa3571aab" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/044e21ca-7a35-4827-921d-c8a3d8362d84" /></td> </tr> </table>
+
 ---
 
 ## 🖊️ Adding New Plate Designs
