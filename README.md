@@ -6,47 +6,58 @@
 
 # 🇲🇾 Malaysian License Plate Generator for Assetto Corsa (UK/EU Styles)
 
-Custom CSP Paintshop license plate mod for Assetto Corsa, fully coded in Lua. Includes **UK-style** (double-line) and **EU-style** (long plate) versions. Auto-generates realistic Malaysian number plates with **state-specific formats**, **special series**, and full **custom mode**.
+A modular, customizable license plate generator made for Assetto Corsa using CSP Paintshop.  
+Supports a wide variety of plate types including Malaysian EV plates, UK-styled two-liners, and EU-style one-liners.
+
+> Built to be extensible, dev-friendly, and easily adaptable for future formats or regional styles.
 
 ---
 
-## 🧭 Versions Available
+## 📂 Features
 
-### 🏴 UK-Style Plate (Double-Line)
-- Two lines:
-  - Line 1: Prefix
-  - Line 2: Number + Postfix
-- Good for cars with UK-style plate placement
-- Ideal for compact presentation or vintage styles
-- ✅ Now includes **Framed** and **Simple** variants!
+- 🔧 **Modular + Extensible**
+  Each plate is its own module with shared utilities. Add new formats easily with minimal code duplication.
+  
+- 🧠 **Shared Drawing Logic**  
+  Common utilities live in `_shared.lua` to reduce redundancy and keep code clean.
 
-### 🇪🇺 EU-Style Plate (Long Plate)
-- Single line: `Prefix + Body + Number + Postfix`
-- Fits modern Euro car plates
-- Clean wide display for detailed plates
-- ✅ Now includes **Framed** and **Simple** variants!
+- 🧪 **Dynamic Input Fields**  
+  Real-time preview and input customization via CSP Paintshop UI.
 
-- 🧱 Both versions have identical logic and state handling, just visual layout difference.
+- 📚 **Authentic Plate Logic (State + Region Aware)**  
+  Prefixes, postfixes, and extra letters are based on real-world Malaysian formats:
+  - Peninsular (A–T), KL (V, W), Langkawi (KV), Putrajaya (F), Sarawak (Q), Sabah (S)
+  - Special plates like “PATRIOT”, “WWW”, “PERODUA” handled separately
+  - Smart postfix logic per region (e.g. Sabah skips 'Z', 'Q')
 
-⚡ **EV variant** is in the works – stay tuned!
+## 🆕 Included Plate Types
 
----
+| Format ID        | Description                     | Style                  |
+|------------------|----------------------------------|------------------------|
+| `EV`             | Malaysian EV plate (FE-FONT)     | Green background       |
+| `UK_Simple`      | UK-style plate (two-liner)       | No frame               |
+| `UK_Framed`      | UK-style plate (two-liner)       | Silver frame           |
+| `EU_Simple`      | EU-style plate (single-line)     | Centered, no frame     |
+| `EU_Framed`      | EU-style plate (single-line)     | Centered, silver frame |
 
-## 🧠 Features
+## 🧰 File Structure
+```
+📁 PlateTypes/
+├── EV.lua
+├── EU_Simple.lua
+├── EU_Framed.lua
+├── UK_Simple.lua
+├── UK_Framed.lua
+├── _shared.lua
+├── EV_bg.png, EV_nm.png, etc.
 
-✅ Real Malaysian state codes (Peninsular, Sabah, Sarawak, KL, etc.)  
-✅ Subdivision letters (e.g. `QA`, `SB`, `ST`) for East Malaysia  
-✅ Special/vanity series like `PROTON`, `G1M`, `VIP`, `UiTM`, etc.  
-✅ Custom mode for full control of prefix/number/postfix  
-✅ Built-in font override support  
-✅ Full Lua-based random plate logic  
-✅ Paintshop compatible, ready to use  
-✅ **Framed** and **Simple** variants for extra realism  
-🚧 Upcoming **EV plate variant**
+📄 style.lua # Entry point that loads all plates
+📄 FE-FONT.TTF # Used for EV plate text
+📄 arialbd.ttf # Used by UK/EU plates
+📄 calistomtitalic.ttf
+```
 
----
-
-## 🛠 Installation
+## 🔧 How to Install
 
 Drop the extracted folder into:
 
@@ -54,56 +65,27 @@ Drop the extracted folder into:
 %localappdata%\AcTools Content Manager\Data (User)\License Plates
 ```
 
-Each version comes as its own folder (e.g. Malaysia - Plates UK and Malaysia - Plates EU).
-
----
-
 ## 🎮 How to Use
 1. Launch Custom Showroom
 2. Go to Paintshop → License Plate
-3. Select the Malaysian plate from the dropdown
-4. Use:
-  - Standard – Generates realistic state plates
-  - Special – Pulls from a big list of known custom prefixes
-  - Custom – Full manual input
-
-⚠️ Some cars don’t render license plates properly. Try different cars if nothing shows up.
-
----
-
-## ✍️ Change Font / Style
-Open style.lua inside the mod folder. Find:
-```
-text.font = 'arialbold.ttf'
-```
-Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
+3. Select the `Malaysia` from `Style` dropdown
+4. PlateDesign - e.g. EU, UK, EV, Simple, or Framed
+5. plateType - Determines how the plate is generated.
+    - Standard - Generate realistic Malaysia state plate
+    - Special - Generate special issued JPJ plate
+    - Custom - Generate plate based on user input
+6. Prefix - For custom input
+7. Number - Sliders to generate plate and for custom input
+8. Postfix - For custom input
 
 ---
 
-## 🧬 Plate Generator Logic
-- The script supports 3 modes:
-  - Standard: Randomly generates legal Malaysian plates by region/state/subdivision
-  - Special: Generates plates with special series (e.g. PROTON 89, VIP 88 M)
-  - Custom: Manual inputs for prefix, number, and optional postfix
-- Example Outputs:
-  - WQH 1234 A (KL Old Series)
-  - SAK 5678 (Sabah)
-  - UNIMAS 89 (University)
-  - KV 9876 B (Langkawi)
-  - G1M 1 M (Special Plate)
+## 🖊️ Adding New Plate Designs
 
-🧠 Every region has its own rules — handled in code.
-
-🛠️ View source logic in style.lua for full breakdown.
-
----
-
-## 📦 Contents
-- Each version folder includes:
-  - malaysia_bg.png – Background texture
-  - malaysia_nm.png – Normal map for lighting
-  - style.lua – The generator code
-  - Optional fonts (arialbold.ttf, calistomtitalic.ttf, etc.)
+1. Create a new `YourPlateName.lua` inside `PlateTypes/`
+2. Define a `draw_plate()` function following existing examples
+3. Add background and normal map images (e.g., `YourPlateName_bg.png`)
+4. Register it in `style.lua` by loading your module
 
 ---
 
@@ -112,18 +94,6 @@ Swap 'arialbold.ttf' with any .ttf file you place in the same folder.
 > Credit not required, but appreciated.  
 > Just don’t try to lock it behind a paywall or pull any NFT clownery 🪦
 
----
-
 ## 🏁 Credits
 
 Made by distrlct1. Discord: respwn3d
-
-Old project, just dropping it out there now.
-Use it, mod it, break it, I ain’t maintaining it but y’all go crazy 🤙
-
----
-
-🛠️ Latest additions:
-- Framed plate design inspired by JPJ-issue plate holders
-- Clean plate variant for showroom-style displays
-- Early codebase prep for EV series plate support
