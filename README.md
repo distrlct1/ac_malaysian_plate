@@ -42,15 +42,15 @@ Supports a wide variety of plate types including Malaysian EV plates, UK-styled 
 
 ## 🧰 File Structure
 ```
-📁 PlateTypes/
-├── EV.lua
-├── EU_Simple.lua
-├── EU_Framed.lua
-├── UK_Simple.lua
-├── UK_Framed.lua
-├── _shared.lua
-├── EV_bg.png, EV_nm.png, etc.
-
+📁 Malaysia/
+  📁 PlateTypes/
+  ├── EV.lua
+  ├── EU_Simple.lua
+  ├── EU_Framed.lua
+  ├── UK_Simple.lua
+  ├── UK_Framed.lua
+  ├── _shared.lua
+  ├── EV_bg.png, EV_nm.png, etc.
 📄 style.lua # Entry point that loads all plates
 📄 FE-FONT.TTF # Used for EV plate text
 📄 arialbd.ttf # Used by UK/EU plates
