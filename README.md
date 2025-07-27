@@ -66,7 +66,10 @@ Drop the extracted folder into:
 ```
 
 ## 🎮 How to Use
-[![Watch the demo](https://img.youtube.com/vi/ZieHsXteYko/hqdefault.jpg)](https://youtu.be/ZieHsXteYko)
+🎥 **New here? Watch this 1-minute setup guide!**  
+<a href="https://youtu.be/ZieHsXteYko" target="_blank">
+  <img src="https://img.youtube.com/vi/ZieHsXteYko/hqdefault.jpg" alt="Watch the demo" style="max-width: 100%;">
+</a>
 1. Launch Custom Showroom
 2. Go to Paintshop → License Plate
 3. Select the `Malaysia` from `Style` dropdown
