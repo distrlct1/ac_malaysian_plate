@@ -113,8 +113,14 @@ end
 
 -- Draw function to generate the license plate
 return function(PlateDesign, plateType, Prefix, Number, Postfix)
-    text.font = 'arialbold.ttf'
-    drawPlateText = nil
+
+    drawPlateText = nil -- Reset plate state
+
+    -- Reset text properties to default, to accomodate EU/UK plateDesign text properties.
+    text.font = 'arialbold.ttf' -- Reset font
+    text.color = '#FFFFFF' -- Reset color
+    text.kerning = -4
+    text.spaces = 48
 
     -- Load the design script for the selected plate design
     local designScript = string.format("PlateTypes/%s.lua", PlateDesign)
@@ -126,11 +132,12 @@ return function(PlateDesign, plateType, Prefix, Number, Postfix)
     plate.light = -90
 
     -- Set text properties
-    text.color = '#FFFFFF'
+    text.font = text.font or 'arialbold.ttf'
+    text.color = text.color or '#FFFFFF'
     text.weight = text.weight or FontWeight.Normal
-    text.kerning = text.kerning or -4
+    text.kerning = text.kerning
     text.spaces = text.spaces or 48
-    text.size = text.size or 150
+    text.size = text.size
 
     local prefixOut, numberOut, postfixOut
 
