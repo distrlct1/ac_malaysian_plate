@@ -81,12 +81,22 @@ Drop the extracted folder into:
 
 **Lost? Chill. Just [watch the 1-minute demo](https://youtu.be/ZieHsXteYko) and you’ll be vibin’.**
 
+### Menu
+<img width="750" height="192" alt="menu croppped" src="https://github.com/user-attachments/assets/c3d4815d-11b9-4748-9d29-5f6760310803" />
+
 ## Plate Designs
+### EU - Framed
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/088929f5-59e9-480a-bc7d-e07513033e71" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/a881711a-546e-453c-bc6a-a2c9986159c9" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/2214c269-1084-42e6-875b-ab7a620294ca" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/ba39df23-2312-4b16-9261-cfb37eb84ec4" /></td> </tr> </table>
+
 ### EU - Simple
 <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/a482a6fd-794e-4533-9591-aa8e8f2732e2" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/ab04dc3a-4574-4935-9501-36fa352c6801" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/e13f9aed-700b-4f7c-a55b-ba7471d57a1e" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/eaeb2bbe-6e58-4ac1-9b9e-513036f1158c" /></td> </tr> </table>
 
 ### UK - Framed
 <table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/a70f6208-01ee-46f1-8c0d-281b5e17576b" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/9c3939ac-8cdd-4fb3-b0cc-27c629f63210" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/f323ef83-c2da-4d6b-a8e2-176fa3571aab" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/044e21ca-7a35-4827-921d-c8a3d8362d84" /></td> </tr> </table>
+
+### EV
+<table> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/e2b74ef1-1e6c-4e1f-bead-3d0dacf5539e" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/72a59395-d5f4-40ed-8f08-a65e467f97b2" /></td> </tr> <tr> <td><img width="400" src="https://github.com/user-attachments/assets/06cc0212-0e6b-4e5c-bdf7-5a170907c8bc" /></td> <td><img width="400" src="https://github.com/user-attachments/assets/6fbf9cd6-2dab-42ba-8f81-0cd78f7c6221" /></td> </tr> </table>
+
 
 ---
 
