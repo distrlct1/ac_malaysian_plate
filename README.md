@@ -128,3 +128,29 @@ Drop the extracted folder into:
 ## 🏁 Credits
 
 Made by distrlct1. Discord: respwn3d
+
+<!-- SEO KEYWORDS FOR DISCOVERABILITY -->
+<!--
+malaysia assetto corsa license plate
+malaysian number plate generator ac
+assetto corsa malaysia plate mod
+ac csp custom plate malaysia
+jpj plate assetto corsa mod
+malaysian license plate generator
+csp license plate malaysia mod
+custom malaysia number plate ac
+ev plate malaysia assetto corsa
+mod plat kereta malaysia assetto corsa
+malaysian car plate mod ac
+assetto corsa malaysia plate script
+ac custom plate paintshop malaysia
+csp plate generator malaysia
+mod plat EV malaysia ac
+malaysia car plate customization mod
+assetto corsa malaysia number plate mod
+paintshop plate mod malaysia
+custom license plate mod malaysia
+assetto corsa my number plate
+plate generator mod malaysia
+jpj malaysia plate script assetto corsa
+-->
